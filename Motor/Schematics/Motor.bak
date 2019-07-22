@@ -711,6 +711,7 @@ F 0 "U16" H 3450 9725 50  0000 C CNN
 F 1 "MAX3095CSE+" H 3450 9634 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3250 9550 50  0001 C CNN
 F 3 "" H 3250 9550 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/line-receiver/7329119/" H 3450 9550 50  0001 C CNN "Distributor"
 	1    3450 9550
 	1    0    0    -1  
 $EndComp
@@ -1099,6 +1100,7 @@ F 0 "U17" H 10250 10725 50  0000 C CNN
 F 1 "MCP16301" H 10250 10634 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 10300 10650 50  0001 C CNN
 F 3 "" H 10300 10650 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/buck-converter/7709476/" H 10250 10400 50  0001 C CNN "Distributor"
 	1    10250 10400
 	1    0    0    -1  
 $EndComp

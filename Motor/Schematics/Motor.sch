@@ -7,8 +7,8 @@ encoding utf-8
 Sheet 1 1
 Title ""
 Date ""
-Rev ""
-Comp ""
+Rev "1.0"
+Comp "Technische Universität München - Physik Department E21"
 Comment1 ""
 Comment2 ""
 Comment3 ""
