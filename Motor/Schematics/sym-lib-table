@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name stm32f100)(type Legacy)(uri ${KIPRJMOD}/library/kicad-lib-sch-stm32/stm32f100.lib)(options "")(descr ""))
+  (lib (name stm32f103)(type Legacy)(uri ${KIPRJMOD}/library/kicad-lib-sch-stm32/stm32f103.lib)(options "")(descr ""))
+  (lib (name bluepill_breakouts)(type Legacy)(uri ${KIPRJMOD}/library/libraries/bluepill_breakouts.lib)(options "")(descr ""))
+  (lib (name motor)(type Legacy)(uri ${KIPRJMOD}/library/libraries/motor.lib)(options "")(descr ""))
+  (lib (name Motor-rescue)(type Legacy)(uri ${KIPRJMOD}/Motor-rescue.lib)(options "")(descr ""))
+  (lib (name relay_controller)(type Legacy)(uri ${KIPRJMOD}/library/libraries/relay_controller.lib)(options "")(descr ""))
+)

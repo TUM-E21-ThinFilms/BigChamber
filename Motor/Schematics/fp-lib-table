@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name BluePill_breakouts)(type KiCad)(uri ${KIPRJMOD}/library/footprints/BluePill_breakouts.pretty)(options "")(descr ""))
+  (lib (name Motor)(type KiCad)(uri ${KIPRJMOD}/library/footprints/Motor.pretty)(options "")(descr ""))
+)

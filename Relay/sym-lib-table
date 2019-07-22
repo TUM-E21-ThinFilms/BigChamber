@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name relay_controller)(type Legacy)(uri ${KIPRJMOD}/relay_controller.lib)(options "")(descr ""))
+  (lib (name relay_controller-rescue)(type Legacy)(uri ${KIPRJMOD}/relay_controller-rescue.lib)(options "")(descr ""))
+  (lib (name Relay_drive_1-rescue)(type Legacy)(uri ${KIPRJMOD}/Relay_drive_1-rescue.lib)(options "")(descr ""))
+  (lib (name relay_driver-rescue)(type Legacy)(uri ${KIPRJMOD}/relay_driver-rescue.lib)(options "")(descr ""))
+  (lib (name Relay_driver_1-rescue)(type Legacy)(uri ${KIPRJMOD}/Relay_driver_1-rescue.lib)(options "")(descr ""))
+  (lib (name JS1-24V-F)(type Legacy)(uri /home/bakhshi/Downloads/JS1-24V-F/JS1-24V-F.lib)(options "")(descr ""))
+)
