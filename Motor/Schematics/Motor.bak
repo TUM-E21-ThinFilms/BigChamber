@@ -2768,7 +2768,7 @@ U 1 1 61177C75
 P 850 1350
 F 0 "J3" H 850 1600 50  0000 C CNN
 F 1 "BP_Power" V 950 1350 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 850 1350 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" H 850 1350 50  0001 C CNN
 F 3 "~" H 850 1350 50  0001 C CNN
 F 4 "https://de.rs-online.com/web/p/leiterplatten-printklemmen/8246572/" H 850 1350 50  0001 C CNN "Distributor"
 	1    850  1350

@@ -1512,7 +1512,7 @@ U 1 1 5DF5EF4C
 P 950 6700
 F 0 "J9" H 950 7050 50  0000 C CNN
 F 1 "BP_Limit_Switches" V 1100 6700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 950 6700 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 950 6700 50  0001 C CNN
 F 3 "~" H 950 6700 50  0001 C CNN
 F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795593/" H 950 6700 50  0001 C CNN "Distributor"
 	1    950  6700

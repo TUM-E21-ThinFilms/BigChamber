@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/alex/Dokumente/BigChamber/BigChamber/Motor/Schematics/Motor.sch)
-    (date "Di 23 Jul 2019 05:03:48 CEST")
+    (date "Di 23 Jul 2019 05:23:35 CEST")
     (tool "Eeschema 5.1.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -455,7 +455,7 @@
       (tstamp 5D40E058))
     (comp (ref J9)
       (value BP_Limit_Switches)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical)
+      (footprint Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical)
       (datasheet ~)
       (fields
         (field (name Distributor) https://de.rs-online.com/web/p/leiterplatten-header/6795593/))
