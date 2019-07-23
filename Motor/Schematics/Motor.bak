@@ -7,8 +7,8 @@ encoding utf-8
 Sheet 1 1
 Title ""
 Date ""
-Rev ""
-Comp ""
+Rev "1.0"
+Comp "Technische Universität München - Physik Department E21"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -22,6 +22,7 @@ F 0 "J1" H 4300 1200 50  0000 L CNN
 F 1 "FP_Control_Speed" V 4450 650 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 4350 1000 50  0001 C CNN
 F 3 "~" H 4350 1000 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795587/" H 4350 1000 50  0001 C CNN "Distributor"
 	1    4350 1000
 	-1   0    0    1   
 $EndComp
@@ -33,6 +34,7 @@ F 0 "J2" H 2800 1250 50  0000 L CNN
 F 1 "FP_Control_Directon" V 2950 750 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 2850 1150 50  0001 C CNN
 F 3 "~" H 2850 1150 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795583/" H 2850 1150 50  0001 C CNN "Distributor"
 	1    2850 1150
 	-1   0    0    1   
 $EndComp
@@ -44,6 +46,7 @@ F 0 "J7" H 2350 3850 50  0000 C CNN
 F 1 "FP_Control_Power" V 2500 3700 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 2350 3750 50  0001 C CNN
 F 3 "~" H 2350 3750 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795583/" H 2350 3750 50  0001 C CNN "Distributor"
 	1    2350 3750
 	-1   0    0    1   
 $EndComp
@@ -55,6 +58,7 @@ F 0 "J6" H 2800 2350 50  0000 L CNN
 F 1 "FP_Control_Move" V 2950 1950 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 2850 2250 50  0001 C CNN
 F 3 "~" H 2850 2250 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795583/" H 2850 2250 50  0001 C CNN "Distributor"
 	1    2850 2250
 	-1   0    0    1   
 $EndComp
@@ -209,6 +213,7 @@ F 0 "J4" H 12168 1225 50  0000 C CNN
 F 1 "ICSP" H 12168 1316 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 12250 1650 50  0001 C CNN
 F 3 "~" H 12250 1650 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795596/" H 12250 1650 50  0001 C CNN "Distributor"
 	1    12250 1650
 	-1   0    0    1   
 $EndComp
@@ -244,8 +249,9 @@ U 1 1 5D47BF85
 P 15400 6250
 F 0 "J8" V 15000 6200 50  0000 L CNN
 F 1 "BP_CAN_IN" H 15300 5800 50  0000 L CNN
-F 2 "Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical" V 15400 6275 50  0001 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 15400 6275 50  0001 C CNN
 F 3 "~" V 15400 6275 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/amphenol-icc-fci/54602-908LF/609-1046-ND/1001360" H 15400 6250 50  0001 C CNN "Distributor"
 	1    15400 6250
 	-1   0    0    1   
 $EndComp
@@ -255,8 +261,9 @@ U 1 1 5D47D83F
 P 15400 7450
 F 0 "J11" V 15000 7450 50  0000 L CNN
 F 1 "BP_CAN_OUT" H 15250 7000 50  0000 L CNN
-F 2 "Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical" V 15400 7475 50  0001 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 15400 7475 50  0001 C CNN
 F 3 "~" V 15400 7475 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/amphenol-icc-fci/54602-908LF/609-1046-ND/1001360" H 15400 7450 50  0001 C CNN "Distributor"
 	1    15400 7450
 	-1   0    0    1   
 $EndComp
@@ -1507,6 +1514,7 @@ F 0 "J9" H 950 7050 50  0000 C CNN
 F 1 "BP_Limit_Switches" V 1100 6700 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 950 6700 50  0001 C CNN
 F 3 "~" H 950 6700 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795593/" H 950 6700 50  0001 C CNN "Distributor"
 	1    950  6700
 	-1   0    0    1   
 $EndComp
@@ -1950,6 +1958,7 @@ F 0 "J5" H 9550 2267 50  0000 C CNN
 F 1 "FP_LED" H 9550 2176 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 9500 1850 50  0001 C CNN
 F 3 "~" H 9500 1850 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-header/8323610/ <br> https://de.rs-online.com/web/p/idc-steckverbinder/8323645/" H 9500 1850 50  0001 C CNN "Distributor"
 	1    9500 1850
 	1    0    0    -1  
 $EndComp
@@ -2201,8 +2210,9 @@ U 1 1 6058E6C8
 P 15350 8150
 F 0 "J12" H 15300 7900 50  0000 L CNN
 F 1 "Power_Ext" V 15650 7900 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 15350 8150 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 15350 8150 50  0001 C CNN
 F 3 "~" H 15350 8150 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-printklemmen/2204260/" H 15350 8150 50  0001 C CNN "Distributor"
 	1    15350 8150
 	1    0    0    -1  
 $EndComp
@@ -2718,6 +2728,7 @@ F 0 "J10" H 10068 7025 50  0000 C CNN
 F 1 "BP_MOTOR" H 10068 7116 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 10150 7350 50  0001 C CNN
 F 3 "~" H 10150 7350 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-printklemmen/8246579/" H 10150 7350 50  0001 C CNN "Distributor"
 	1    10150 7350
 	1    0    0    -1  
 $EndComp
@@ -2759,6 +2770,7 @@ F 0 "J3" H 850 1600 50  0000 C CNN
 F 1 "BP_Power" V 950 1350 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 850 1350 50  0001 C CNN
 F 3 "~" H 850 1350 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-printklemmen/8246572/" H 850 1350 50  0001 C CNN "Distributor"
 	1    850  1350
 	-1   0    0    1   
 $EndComp

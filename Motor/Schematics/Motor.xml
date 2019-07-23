@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/alex/Dokumente/BigChamber/Motor/Motor.sch</source>
-    <date>Mo 22 Jul 2019 05:07:17 CEST</date>
+    <source>/home/alex/Dokumente/BigChamber/BigChamber/Motor/Schematics/Motor.sch</source>
+    <date>Di 23 Jul 2019 05:18:07 CEST</date>
     <tool>Eeschema 5.1.2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
-        <company/>
-        <rev/>
+        <company>Technische Universität München - Physik Department E21</company>
+        <rev>1.0</rev>
         <date/>
         <source>Motor.sch</source>
         <comment number="1" value=""/>
@@ -23,6 +23,9 @@
       <value>FP_Control_Speed</value>
       <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">https://de.rs-online.com/web/p/leiterplatten-header/6795587/</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D20F8F1</tstamp>
@@ -31,6 +34,9 @@
       <value>FP_Control_Directon</value>
       <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">https://de.rs-online.com/web/p/leiterplatten-header/6795583/</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D20FCED</tstamp>
@@ -39,6 +45,9 @@
       <value>FP_Control_Power</value>
       <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">https://de.rs-online.com/web/p/leiterplatten-header/6795583/</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D213D93</tstamp>
@@ -47,6 +56,9 @@
       <value>FP_Control_Move</value>
       <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">https://de.rs-online.com/web/p/leiterplatten-header/6795583/</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D20FF3D</tstamp>
@@ -74,22 +86,31 @@
       <value>ICSP</value>
       <footprint>Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">https://de.rs-online.com/web/p/leiterplatten-header/6795596/</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D46DB5C</tstamp>
     </comp>
     <comp ref="J8">
       <value>BP_CAN_IN</value>
-      <footprint>Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical</footprint>
+      <footprint>Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">https://www.digikey.com/product-detail/en/amphenol-icc-fci/54602-908LF/609-1046-ND/1001360</field>
+      </fields>
       <libsource lib="Connector" part="RJ45" description="RJ connector, 8P8C (8 positions 8 connected)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D47BF85</tstamp>
     </comp>
     <comp ref="J11">
       <value>BP_CAN_OUT</value>
-      <footprint>Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical</footprint>
+      <footprint>Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">https://www.digikey.com/product-detail/en/amphenol-icc-fci/54602-908LF/609-1046-ND/1001360</field>
+      </fields>
       <libsource lib="Connector" part="RJ45" description="RJ connector, 8P8C (8 positions 8 connected)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D47D83F</tstamp>
@@ -530,6 +551,9 @@
       <value>BP_Limit_Switches</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">https://de.rs-online.com/web/p/leiterplatten-header/6795593/</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DF5EF4C</tstamp>
@@ -737,6 +761,9 @@
       <value>FP_LED</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">https://de.rs-online.com/web/p/leiterplatten-header/8323610/ &lt;br&gt; https://de.rs-online.com/web/p/idc-steckverbinder/8323645/</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EEAADAC</tstamp>
@@ -779,8 +806,11 @@
     </comp>
     <comp ref="J12">
       <value>Power_Ext</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">https://de.rs-online.com/web/p/leiterplatten-printklemmen/2204260/</field>
+      </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6058E6C8</tstamp>
@@ -975,14 +1005,20 @@
       <value>BP_MOTOR</value>
       <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">https://de.rs-online.com/web/p/leiterplatten-printklemmen/8246579/</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D24F3EA</tstamp>
     </comp>
     <comp ref="J3">
       <value>BP_Power</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">https://de.rs-online.com/web/p/leiterplatten-printklemmen/8246572/</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61177C75</tstamp>
@@ -1539,13 +1575,13 @@
       <uri>/home/alex/Dokumente/KiCad/KiCadLib/Device.lib</uri>
     </library>
     <library logical="bluepill_breakouts">
-      <uri>/home/alex/Dokumente/BigChamber/Motor/library/libraries/bluepill_breakouts.lib</uri>
+      <uri>/home/alex/Dokumente/BigChamber/BigChamber/Motor/Schematics/library/libraries/bluepill_breakouts.lib</uri>
     </library>
     <library logical="motor">
-      <uri>/home/alex/Dokumente/BigChamber/Motor/library/libraries/motor.lib</uri>
+      <uri>/home/alex/Dokumente/BigChamber/BigChamber/Motor/Schematics/library/libraries/motor.lib</uri>
     </library>
     <library logical="relay_controller">
-      <uri>/home/alex/Dokumente/BigChamber/Motor/library/libraries/relay_controller.lib</uri>
+      <uri>/home/alex/Dokumente/BigChamber/BigChamber/Motor/Schematics/library/libraries/relay_controller.lib</uri>
     </library>
   </libraries>
   <nets>

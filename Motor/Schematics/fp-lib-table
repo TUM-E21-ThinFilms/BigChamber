@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name BluePill_breakouts)(type KiCad)(uri ${KIPRJMOD}/library/footprints/BluePill_breakouts.pretty)(options "")(descr ""))
   (lib (name Motor)(type KiCad)(uri ${KIPRJMOD}/library/footprints/Motor.pretty)(options "")(descr ""))
+  (lib (name RelayDriver)(type KiCad)(uri /home/alex/Dokumente/BigChamber/BigChamber/Relay/Schematics/RelayDriver.pretty)(options "")(descr ""))
 )

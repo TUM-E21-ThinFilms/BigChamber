@@ -1,13 +1,13 @@
 (export (version D)
   (design
-    (source /home/alex/Dokumente/BigChamber/Motor/Motor.sch)
-    (date "Mo 22 Jul 2019 03:46:48 CEST")
+    (source /home/alex/Dokumente/BigChamber/BigChamber/Motor/Schematics/Motor.sch)
+    (date "Di 23 Jul 2019 05:03:48 CEST")
     (tool "Eeschema 5.1.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
-        (company)
-        (rev)
+        (company "Technische Universität München - Physik Department E21")
+        (rev 1.0)
         (date)
         (source Motor.sch)
         (comment (number 1) (value ""))
@@ -19,6 +19,8 @@
       (value FP_Control_Speed)
       (footprint Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/leiterplatten-header/6795587/))
       (libsource (lib Connector_Generic) (part Conn_01x03) (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D20F8F1))
@@ -26,6 +28,8 @@
       (value FP_Control_Directon)
       (footprint Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/leiterplatten-header/6795583/))
       (libsource (lib Connector_Generic) (part Conn_01x02) (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D20FCED))
@@ -33,6 +37,8 @@
       (value FP_Control_Power)
       (footprint Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/leiterplatten-header/6795583/))
       (libsource (lib Connector_Generic) (part Conn_01x02) (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D213D93))
@@ -40,6 +46,8 @@
       (value FP_Control_Move)
       (footprint Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/leiterplatten-header/6795583/))
       (libsource (lib Connector_Generic) (part Conn_01x02) (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D20FF3D))
@@ -48,6 +56,7 @@
       (footprint Package_TO_SOT_SMD:TO-252-2)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/mosfet/8090903/)
         (field (name Feld4) https://de.rs-online.com/web/p/mosfet/8090903/))
       (libsource (lib Device) (part Q_NMOS_DGS) (description "N-MOSFET transistor, drain/gate/source"))
       (sheetpath (names /) (tstamps /))
@@ -62,26 +71,34 @@
       (value ICSP)
       (footprint Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/leiterplatten-header/6795596/))
       (libsource (lib Connector_Generic) (part Conn_01x04) (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D46DB5C))
     (comp (ref J8)
       (value BP_CAN_IN)
-      (footprint Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical)
+      (footprint Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal)
       (datasheet ~)
+      (fields
+        (field (name Distributor) https://www.digikey.com/product-detail/en/amphenol-icc-fci/54602-908LF/609-1046-ND/1001360))
       (libsource (lib Connector) (part RJ45) (description "RJ connector, 8P8C (8 positions 8 connected)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D47BF85))
     (comp (ref J11)
       (value BP_CAN_OUT)
-      (footprint Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical)
+      (footprint Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal)
       (datasheet ~)
+      (fields
+        (field (name Distributor) https://www.digikey.com/product-detail/en/amphenol-icc-fci/54602-908LF/609-1046-ND/1001360))
       (libsource (lib Connector) (part RJ45) (description "RJ connector, 8P8C (8 positions 8 connected)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D47D83F))
     (comp (ref U12)
       (value IFX1050GVIO)
       (footprint Motor:Infineon_PG-DSO-8)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/can-bus-transceiver/8977254/))
       (libsource (lib motor) (part IFX1050GVIO) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D494DFD))
@@ -90,6 +107,7 @@
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/)
         (field (name Feld4) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -99,6 +117,7 @@
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/)
         (field (name Feld4) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -108,6 +127,7 @@
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/)
         (field (name Feld4) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -117,6 +137,7 @@
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/)
         (field (name Feld4) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -126,6 +147,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/6791761/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/6791761/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -135,6 +157,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251192/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251192/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -144,6 +167,7 @@
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/)
         (field (name Feld4) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -153,6 +177,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/6791761/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/6791761/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -162,6 +187,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251192/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251192/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -178,6 +204,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/2232142/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/2232142/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -185,6 +212,8 @@
     (comp (ref U16)
       (value MAX3095CSE+)
       (footprint Package_SO:SOIC-16_3.9x9.9mm_P1.27mm)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/line-receiver/7329119/))
       (libsource (lib motor) (part MAX3095) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DE4E19E))
@@ -193,6 +222,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/2232142/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/2232142/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -202,6 +232,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/2232142/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/2232142/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -211,6 +242,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -220,6 +252,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -229,6 +262,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -238,6 +272,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -247,6 +282,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -256,6 +292,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -265,6 +302,7 @@
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/)
         (field (name Feld4) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -274,6 +312,7 @@
       (footprint Package_TO_SOT_SMD:SOT-23)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/suppressordioden-tvs/0508462/)
         (field (name Feld4) https://de.rs-online.com/web/p/suppressordioden-tvs/0508462/))
       (libsource (lib Device) (part D_TVS_x2_AAC) (description "Bidirectional dual transient-voltage-suppression diode, center on pin 3"))
       (sheetpath (names /) (tstamps /))
@@ -281,6 +320,8 @@
     (comp (ref U17)
       (value MCP16301)
       (footprint Package_TO_SOT_SMD:SOT-23-6_Handsoldering)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/buck-converter/7709476/))
       (libsource (lib motor) (part MCP16301) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5EA7AE2A))
@@ -289,6 +330,7 @@
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/)
         (field (name Feld4) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -298,6 +340,7 @@
       (footprint Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/7661217/)
         (field (name Feld4) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/7661217/))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -307,6 +350,7 @@
       (footprint Diode_SMD:D_SMA_Handsoldering)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/gleichrichterdioden-und-schottky-dioden/1662555/)
         (field (name Feld4) https://de.rs-online.com/web/p/gleichrichterdioden-und-schottky-dioden/1662555/))
       (libsource (lib Device) (part D_Schottky) (description "Schottky diode"))
       (sheetpath (names /) (tstamps /))
@@ -316,6 +360,7 @@
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/)
         (field (name Feld4) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -325,6 +370,7 @@
       (footprint Inductor_SMD:L_Taiyo-Yuden_NR-60xx_HandSoldering)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://www.digikey.com/product-detail/en/taiyo-yuden/NR6045T220M/587-2082-1-ND/1789029)
         (field (name Feld4) https://www.digikey.com/product-detail/en/taiyo-yuden/NR6045T220M/587-2082-1-ND/1789029))
       (libsource (lib Device) (part L_Small) (description "Inductor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -334,6 +380,7 @@
       (footprint Diode_SMD:D_SOD-123)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/schaltdioden/7003671/)
         (field (name Feld4) https://de.rs-online.com/web/p/schaltdioden/7003671/))
       (libsource (lib Device) (part D_Small) (description "Diode, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -343,6 +390,7 @@
       (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/aluminium-elektrolytkondensatoren/6842068/)
         (field (name Feld4) https://de.rs-online.com/web/p/aluminium-elektrolytkondensatoren/6842068/))
       (libsource (lib Device) (part CP_Small) (description "Polarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -352,6 +400,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -361,6 +410,7 @@
       (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1229536/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1229536/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -370,6 +420,7 @@
       (footprint Diode_SMD:D_SMB_Handsoldering)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/suppressordioden-tvs/8120118/)
         (field (name Feld4) https://de.rs-online.com/web/p/suppressordioden-tvs/8120118/))
       (libsource (lib Device) (part D_TVS) (description "Bidirectional transient-voltage-suppression diode"))
       (sheetpath (names /) (tstamps /))
@@ -379,7 +430,7 @@
       (footprint Diode_SMD:D_SMA_Handsoldering)
       (datasheet ~)
       (fields
-        (field (name Feld4) https://de.rs-online.com/web/p/gleichrichterdioden-und-schottky-dioden/8022190/))
+        (field (name Distributor) https://de.rs-online.com/web/p/gleichrichterdioden-und-schottky-dioden/8022190/))
       (libsource (lib Device) (part D_Small) (description "Diode, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D37535F))
@@ -388,6 +439,7 @@
       (footprint Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/ferritperlen/6694014/)
         (field (name Feld4) https://de.rs-online.com/web/p/ferritperlen/6694014/))
       (libsource (lib Device) (part L_Small) (description "Inductor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -397,7 +449,7 @@
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
-        (field (name Feld4) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/))
+        (field (name Distributor) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D40E058))
@@ -405,6 +457,8 @@
       (value BP_Limit_Switches)
       (footprint Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/leiterplatten-header/6795593/))
       (libsource (lib Connector_Generic) (part Conn_01x06) (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DF5EF4C))
@@ -413,6 +467,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -422,6 +477,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -431,6 +487,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -440,6 +497,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -447,12 +505,16 @@
     (comp (ref U8)
       (value VOD206T)
       (footprint Package_SO:SOIC-8_3.9x4.9mm_P1.27mm)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/optokoppler-ics/6998467/))
       (libsource (lib motor) (part VOD206T) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DF3A404))
     (comp (ref U11)
       (value VOD206T)
       (footprint Package_SO:SOIC-8_3.9x4.9mm_P1.27mm)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/optokoppler-ics/6998467/))
       (libsource (lib motor) (part VOD206T) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5E0CE5C4))
@@ -461,6 +523,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/6791761/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/6791761/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -470,6 +533,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/6791761/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/6791761/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -479,6 +543,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/6791761/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/6791761/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -488,6 +553,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/6791761/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/6791761/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -496,6 +562,7 @@
       (value ULN2803A)
       (footprint Package_DIP:DIP-18_W7.62mm_Socket)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/darlington-transistoren/7141167/)
         (field (name Feld4) https://de.rs-online.com/web/p/darlington-transistoren/7141167/))
       (libsource (lib relay_controller) (part ULN2803A) (description ""))
       (sheetpath (names /) (tstamps /))
@@ -505,6 +572,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/2232164/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/2232164/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -514,6 +582,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/2232164/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/2232164/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -523,6 +592,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/2232164/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/2232164/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -532,6 +602,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/2232164/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/2232164/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -541,6 +612,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/2232164/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/2232164/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -550,6 +622,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/2232164/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/2232164/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -558,6 +631,8 @@
       (value FP_LED)
       (footprint Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Distributor) "https://de.rs-online.com/web/p/leiterplatten-header/8323610/ <br> https://de.rs-online.com/web/p/idc-steckverbinder/8323645/"))
       (libsource (lib Connector_Generic) (part Conn_02x06_Odd_Even) (description "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5EEAADAC))
@@ -566,6 +641,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/6791761/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/6791761/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -575,6 +651,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -584,14 +661,17 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/6791761/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/6791761/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F6E7A92))
     (comp (ref J12)
       (value Power_Ext)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
+      (footprint TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal)
       (datasheet ~)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/leiterplatten-printklemmen/2204260/))
       (libsource (lib Connector) (part Screw_Terminal_01x02) (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6058E6C8))
@@ -600,6 +680,7 @@
       (footprint Package_TO_SOT_SMD:SOT-23)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/bipolare-transistoren/6255098/)
         (field (name Feld4) https://de.rs-online.com/web/p/bipolare-transistoren/6255098/))
       (libsource (lib Device) (part Q_NPN_BEC) (description "NPN transistor, base/emitter/collector"))
       (sheetpath (names /) (tstamps /))
@@ -609,6 +690,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/2232243/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/2232243/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -618,6 +700,7 @@
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/)
         (field (name Feld4) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -625,6 +708,8 @@
     (comp (ref U4)
       (value TLP2361)
       (footprint Package_SO:SO-5_4.4x3.6mm_P1.27mm)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/optokoppler-ics/8851190/))
       (libsource (lib motor) (part TLP2361) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 60926829))
@@ -633,6 +718,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -642,6 +728,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -651,6 +738,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251192/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251192/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -660,6 +748,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251192/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251192/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -669,6 +758,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/2232164/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/2232164/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -678,6 +768,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/2232164/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/2232164/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -685,6 +776,8 @@
     (comp (ref U9)
       (value VOD206T)
       (footprint Package_SO:SOIC-8_3.9x4.9mm_P1.27mm)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/optokoppler-ics/6998467/))
       (libsource (lib motor) (part VOD206T) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5FC52F46))
@@ -693,6 +786,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -702,6 +796,7 @@
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/smd-widerstande/1251190/)
         (field (name Feld4) https://de.rs-online.com/web/p/smd-widerstande/1251190/))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -711,6 +806,7 @@
       (footprint Capacitor_THT:CP_Radial_D10.0mm_P5.00mm)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/aluminium-elektrolytkondensatoren/3150861/)
         (field (name Feld4) https://de.rs-online.com/web/p/aluminium-elektrolytkondensatoren/3150861/))
       (libsource (lib Device) (part CP_Small) (description "Polarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -720,6 +816,7 @@
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/)
         (field (name Feld4) https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -727,6 +824,8 @@
     (comp (ref U10)
       (value VNH7070BAS)
       (footprint Package_SO:SOIC-16_3.9x9.9mm_P1.27mm)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/motor-treiber-ics/1647023/))
       (libsource (lib motor) (part VNH7070BAS) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D24C086))
@@ -734,19 +833,25 @@
       (value BP_MOTOR)
       (footprint TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal)
       (datasheet ~)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/leiterplatten-printklemmen/8246579/))
       (libsource (lib Connector_Generic) (part Conn_01x02) (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D24F3EA))
     (comp (ref J3)
       (value BP_Power)
-      (footprint TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal)
+      (footprint TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal)
       (datasheet ~)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/leiterplatten-printklemmen/8246572/))
       (libsource (lib Connector_Generic) (part Conn_01x03) (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61177C75))
     (comp (ref U3)
       (value VOD206T)
       (footprint Package_SO:SOIC-8_3.9x4.9mm_P1.27mm)
+      (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/optokoppler-ics/6998467/))
       (libsource (lib motor) (part VOD206T) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 62CCBCDE))
@@ -755,6 +860,7 @@
       (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm)
       (datasheet ~)
       (fields
+        (field (name Distributor) https://de.rs-online.com/web/p/aluminium-elektrolytkondensatoren/6842068/)
         (field (name Feld4) https://de.rs-online.com/web/p/aluminium-elektrolytkondensatoren/6842068/))
       (libsource (lib Device) (part CP_Small) (description "Polarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -1189,11 +1295,11 @@
     (library (logical Device)
       (uri /home/alex/Dokumente/KiCad/KiCadLib/Device.lib))
     (library (logical bluepill_breakouts)
-      (uri /home/alex/Dokumente/BigChamber/Motor/library/libraries/bluepill_breakouts.lib))
+      (uri /home/alex/Dokumente/BigChamber/BigChamber/Motor/Schematics/library/libraries/bluepill_breakouts.lib))
     (library (logical motor)
-      (uri /home/alex/Dokumente/BigChamber/Motor/library/libraries/motor.lib))
+      (uri /home/alex/Dokumente/BigChamber/BigChamber/Motor/Schematics/library/libraries/motor.lib))
     (library (logical relay_controller)
-      (uri /home/alex/Dokumente/BigChamber/Motor/library/libraries/relay_controller.lib)))
+      (uri /home/alex/Dokumente/BigChamber/BigChamber/Motor/Schematics/library/libraries/relay_controller.lib)))
   (nets
     (net (code 1) (name "Net-(U1-Pad7)")
       (node (ref U1) (pin 7)))
