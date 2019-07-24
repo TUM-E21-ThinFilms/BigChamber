@@ -31,7 +31,7 @@ L Connector_Generic:Conn_01x02 J2
 U 1 1 5D20FCED
 P 2850 1150
 F 0 "J2" H 2800 1250 50  0000 L CNN
-F 1 "FP_Control_Directon" V 2950 750 50  0000 L CNN
+F 1 "FP_Control_Direction" V 2950 750 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 2850 1150 50  0001 C CNN
 F 3 "~" H 2850 1150 50  0001 C CNN
 F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795583/" H 2850 1150 50  0001 C CNN "Distributor"
@@ -688,8 +688,9 @@ U 1 1 5DDE6D52
 P 1000 9100
 F 0 "J13" H 1000 9500 50  0000 C CNN
 F 1 "BP_RS422_Encoder" V 1100 9000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1000 9100 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-08A_1x08_P2.54mm_Vertical" H 1000 9100 50  0001 C CNN
 F 3 "~" H 1000 9100 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795606/" H 1000 9100 50  0001 C CNN "Distributor"
 	1    1000 9100
 	-1   0    0    1   
 $EndComp
@@ -3125,4 +3126,25 @@ $EndComp
 Wire Wire Line
 	7950 10000 7950 10600
 Connection ~ 7950 10000
+$Comp
+L Device:D_Small D6
+U 1 1 5D393EA9
+P 2250 4950
+F 0 "D6" V 2204 5018 50  0000 L CNN
+F 1 "1N4148W" V 2295 5018 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 2250 4950 50  0001 C CNN
+F 3 "~" V 2250 4950 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/schaltdioden/7003671/" H 2250 4950 50  0001 C CNN "Distributor"
+	1    2250 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 4850 2250 4400
+Wire Wire Line
+	2250 4400 1850 4400
+Wire Wire Line
+	2250 5050 2250 5100
+Wire Wire Line
+	2250 5100 1850 5100
+Connection ~ 1850 5100
 $EndSCHEMATC
