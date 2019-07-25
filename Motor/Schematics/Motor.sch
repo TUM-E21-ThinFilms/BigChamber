@@ -27,18 +27,6 @@ F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795587/" H 4350 1000 5
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5D20FCED
-P 2850 1150
-F 0 "J2" H 2800 1250 50  0000 L CNN
-F 1 "FP_Control_Direction" V 2950 750 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 2850 1150 50  0001 C CNN
-F 3 "~" H 2850 1150 50  0001 C CNN
-F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795583/" H 2850 1150 50  0001 C CNN "Distributor"
-	1    2850 1150
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J7
 U 1 1 5D213D93
 P 2350 3750
@@ -53,19 +41,19 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J6
 U 1 1 5D20FF3D
-P 2850 2250
-F 0 "J6" H 2800 2350 50  0000 L CNN
-F 1 "FP_Control_Move" V 2950 1950 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 2850 2250 50  0001 C CNN
-F 3 "~" H 2850 2250 50  0001 C CNN
-F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795583/" H 2850 2250 50  0001 C CNN "Distributor"
-	1    2850 2250
+P 2850 1150
+F 0 "J6" H 2800 1250 50  0000 L CNN
+F 1 "FP_Control_Move" V 2950 850 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 2850 1150 50  0001 C CNN
+F 3 "~" H 2850 1150 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795583/" H 2850 1150 50  0001 C CNN "Distributor"
+	1    2850 1150
 	-1   0    0    1   
 $EndComp
 Text Label 4700 1000 0    50   ~ 0
 MCU_AIN_MOTOR_SPEED
-Text Label 3600 1150 0    50   ~ 0
-DIN_DIRECTION
+Text Label 4300 2350 0    50   ~ 0
+DIN_DIRECTION_CW
 $Comp
 L Device:Q_NMOS_DGS Q2
 U 1 1 5D2209BD
@@ -79,7 +67,7 @@ F 5 "https://de.rs-online.com/web/p/mosfet/8090903/" H 1750 4700 50  0001 C CNN 
 	1    1750 4700
 	1    0    0    -1  
 $EndComp
-Text Label 1700 1350 0    50   ~ 0
+Text Label 1900 1350 0    50   ~ 0
 EXT_GNDPWR
 Text Label 1700 5200 0    50   ~ 0
 EXT_GNDPWR
@@ -121,12 +109,12 @@ $EndComp
 $Comp
 L power:+5V #PWR019
 U 1 1 5D2494E4
-P 13350 2750
-F 0 "#PWR019" H 13350 2600 50  0001 C CNN
-F 1 "+5V" V 13365 2878 50  0000 L CNN
-F 2 "" H 13350 2750 50  0001 C CNN
-F 3 "" H 13350 2750 50  0001 C CNN
-	1    13350 2750
+P 13200 2750
+F 0 "#PWR019" H 13200 2600 50  0001 C CNN
+F 1 "+5V" V 13215 2878 50  0000 L CNN
+F 2 "" H 13200 2750 50  0001 C CNN
+F 3 "" H 13200 2750 50  0001 C CNN
+	1    13200 2750
 	0    -1   -1   0   
 $EndComp
 Text Label 15100 2550 0    50   ~ 0
@@ -170,11 +158,11 @@ F 3 "" H 15100 1250 50  0001 C CNN
 	1    15100 1250
 	0    1    1    0   
 $EndComp
-Text Notes 4200 1750 0    50   ~ 0
+Text Notes 4900 800  0    50   ~ 0
 at least 10kOhm potentiometer
 Text Label 15100 2150 0    50   ~ 0
-DIN_DIRECTION
-Text Label 15100 2050 0    50   ~ 0
+DIN_DIRECTION_CCW
+Text Label 15100 1950 0    50   ~ 0
 DIN_MOVE
 Text Label 13350 2450 2    50   ~ 0
 MCU_LS_DOWN_NO
@@ -184,20 +172,20 @@ Text Label 13350 2150 2    50   ~ 0
 MCU_LS_UP_NO
 Text Label 13350 2050 2    50   ~ 0
 MCU_LS_UP_NC
-Text Label 3600 2250 0    50   ~ 0
+Text Label 3600 1150 0    50   ~ 0
 DIN_MOVE
 $Comp
 L power:GNDD #PWR012
 U 1 1 5D26B486
-P 3450 1400
-F 0 "#PWR012" H 3450 1150 50  0001 C CNN
-F 1 "GNDD" H 3550 1250 50  0000 R CNN
-F 2 "" H 3450 1400 50  0001 C CNN
-F 3 "" H 3450 1400 50  0001 C CNN
-	1    3450 1400
+P 3700 2700
+F 0 "#PWR012" H 3700 2450 50  0001 C CNN
+F 1 "GNDD" H 3800 2550 50  0000 R CNN
+F 2 "" H 3700 2700 50  0001 C CNN
+F 3 "" H 3700 2700 50  0001 C CNN
+	1    3700 2700
 	1    0    0    -1  
 $EndComp
-Text Notes 500  700  0    39   ~ 0
+Text Notes 300  700  0    39   ~ 0
 +5VP != +5V\n+5V is considered "safe", i.e. no galvanically isolation.\n+5VP is considered "unsafe", so every input IS isolated to the microprocessor.
 Text Label 13350 1250 2    50   ~ 0
 MCU_ENC_A
@@ -428,8 +416,89 @@ Wire Wire Line
 $Comp
 L Device:C_Small C1
 U 1 1 5D97BE43
+P 3700 2200
+F 0 "C1" H 3750 2300 50  0000 L CNN
+F 1 "100nF" H 3700 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3700 2200 50  0001 C CNN
+F 3 "~" H 3700 2200 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/" H 3700 2200 50  0001 C CNN "Feld4"
+F 5 "https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/" H 3700 2200 50  0001 C CNN "Distributor"
+	1    3700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5D97BE49
+P 3700 2600
+F 0 "R2" V 3896 2600 50  0000 C CNN
+F 1 "100k" V 3800 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3700 2600 50  0001 C CNN
+F 3 "~" H 3700 2600 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/smd-widerstande/6791761/" H 3700 2600 50  0001 C CNN "Feld4"
+F 5 "https://de.rs-online.com/web/p/smd-widerstande/6791761/" H 3700 2600 50  0001 C CNN "Distributor"
+	1    3700 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2250 3400 2000
+Wire Wire Line
+	3700 2000 3700 2100
+Connection ~ 3700 2350
+Wire Wire Line
+	3700 2300 3700 2350
+Wire Wire Line
+	3500 2350 3700 2350
+$Comp
+L Device:R_Small R1
+U 1 1 5D97BE63
+P 3400 2350
+F 0 "R1" V 3350 2500 50  0000 C CNN
+F 1 "10k" V 3350 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3400 2350 50  0001 C CNN
+F 3 "~" H 3400 2350 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/smd-widerstande/1251192/" H 3400 2350 50  0001 C CNN "Feld4"
+F 5 "https://de.rs-online.com/web/p/smd-widerstande/1251192/" H 3400 2350 50  0001 C CNN "Distributor"
+	1    3400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR02
+U 1 1 5D99DD6F
+P 3400 2000
+F 0 "#PWR02" H 3400 1850 50  0001 C CNN
+F 1 "+3.3V" H 3300 2200 50  0000 L CNN
+F 2 "" H 3400 2000 50  0001 C CNN
+F 3 "" H 3400 2000 50  0001 C CNN
+	1    3400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5D9A2ACD
+P 3700 2000
+F 0 "#PWR03" H 3700 1850 50  0001 C CNN
+F 1 "+3.3V" H 3600 2200 50  0000 L CNN
+F 2 "" H 3700 2000 50  0001 C CNN
+F 3 "" H 3700 2000 50  0001 C CNN
+	1    3700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR017
+U 1 1 5D9DE423
+P 3450 1400
+F 0 "#PWR017" H 3450 1150 50  0001 C CNN
+F 1 "GNDD" H 3550 1250 50  0000 R CNN
+F 2 "" H 3450 1400 50  0001 C CNN
+F 3 "" H 3450 1400 50  0001 C CNN
+	1    3450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5D9DE429
 P 3450 1000
-F 0 "C1" H 3550 1100 50  0000 L CNN
+F 0 "C3" H 3550 1100 50  0000 L CNN
 F 1 "100nF" H 3550 1000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3450 1000 50  0001 C CNN
 F 3 "~" H 3450 1000 50  0001 C CNN
@@ -439,10 +508,10 @@ F 5 "https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/" H 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R2
-U 1 1 5D97BE49
+L Device:R_Small R10
+U 1 1 5D9DE42F
 P 3450 1300
-F 0 "R2" V 3646 1300 50  0000 C CNN
+F 0 "R10" V 3646 1300 50  0000 C CNN
 F 1 "100k" V 3550 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3450 1300 50  0001 C CNN
 F 3 "~" H 3450 1300 50  0001 C CNN
@@ -465,10 +534,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 1150 3450 1150
 $Comp
-L Device:R_Small R1
-U 1 1 5D97BE63
+L Device:R_Small R9
+U 1 1 5D9DE43C
 P 3150 1150
-F 0 "R1" V 3346 1150 50  0000 C CNN
+F 0 "R9" V 3346 1150 50  0000 C CNN
 F 1 "10k" V 3250 1150 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3150 1150 50  0001 C CNN
 F 3 "~" H 3150 1150 50  0001 C CNN
@@ -478,10 +547,10 @@ F 5 "https://de.rs-online.com/web/p/smd-widerstande/1251192/" H 3150 1150 50  00
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR02
-U 1 1 5D99DD6F
+L power:+3.3V #PWR015
+U 1 1 5D9DE442
 P 3150 800
-F 0 "#PWR02" H 3150 650 50  0001 C CNN
+F 0 "#PWR015" H 3150 650 50  0001 C CNN
 F 1 "+3.3V" H 3050 1000 50  0000 L CNN
 F 2 "" H 3150 800 50  0001 C CNN
 F 3 "" H 3150 800 50  0001 C CNN
@@ -489,10 +558,10 @@ F 3 "" H 3150 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR03
-U 1 1 5D9A2ACD
+L power:+3.3V #PWR016
+U 1 1 5D9DE448
 P 3450 800
-F 0 "#PWR03" H 3450 650 50  0001 C CNN
+F 0 "#PWR016" H 3450 650 50  0001 C CNN
 F 1 "+3.3V" H 3350 1000 50  0000 L CNN
 F 2 "" H 3450 800 50  0001 C CNN
 F 3 "" H 3450 800 50  0001 C CNN
@@ -501,93 +570,6 @@ F 3 "" H 3450 800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 1150 3450 1150
-$Comp
-L power:GNDD #PWR017
-U 1 1 5D9DE423
-P 3450 2500
-F 0 "#PWR017" H 3450 2250 50  0001 C CNN
-F 1 "GNDD" H 3550 2350 50  0000 R CNN
-F 2 "" H 3450 2500 50  0001 C CNN
-F 3 "" H 3450 2500 50  0001 C CNN
-	1    3450 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 5D9DE429
-P 3450 2100
-F 0 "C3" H 3550 2200 50  0000 L CNN
-F 1 "100nF" H 3550 2100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3450 2100 50  0001 C CNN
-F 3 "~" H 3450 2100 50  0001 C CNN
-F 4 "https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/" H 3450 2100 50  0001 C CNN "Feld4"
-F 5 "https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/" H 3450 2100 50  0001 C CNN "Distributor"
-	1    3450 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R10
-U 1 1 5D9DE42F
-P 3450 2400
-F 0 "R10" V 3646 2400 50  0000 C CNN
-F 1 "100k" V 3550 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3450 2400 50  0001 C CNN
-F 3 "~" H 3450 2400 50  0001 C CNN
-F 4 "https://de.rs-online.com/web/p/smd-widerstande/6791761/" H 3450 2400 50  0001 C CNN "Feld4"
-F 5 "https://de.rs-online.com/web/p/smd-widerstande/6791761/" H 3450 2400 50  0001 C CNN "Distributor"
-	1    3450 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 2150 3150 2150
-Wire Wire Line
-	3150 2150 3150 1900
-Wire Wire Line
-	3450 1900 3450 2000
-Connection ~ 3450 2250
-Wire Wire Line
-	3450 2250 3450 2300
-Wire Wire Line
-	3450 2200 3450 2250
-Wire Wire Line
-	3250 2250 3450 2250
-$Comp
-L Device:R_Small R9
-U 1 1 5D9DE43C
-P 3150 2250
-F 0 "R9" V 3346 2250 50  0000 C CNN
-F 1 "10k" V 3250 2250 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3150 2250 50  0001 C CNN
-F 3 "~" H 3150 2250 50  0001 C CNN
-F 4 "https://de.rs-online.com/web/p/smd-widerstande/1251192/" H 3150 2250 50  0001 C CNN "Feld4"
-F 5 "https://de.rs-online.com/web/p/smd-widerstande/1251192/" H 3150 2250 50  0001 C CNN "Distributor"
-	1    3150 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR015
-U 1 1 5D9DE442
-P 3150 1900
-F 0 "#PWR015" H 3150 1750 50  0001 C CNN
-F 1 "+3.3V" H 3050 2100 50  0000 L CNN
-F 2 "" H 3150 1900 50  0001 C CNN
-F 3 "" H 3150 1900 50  0001 C CNN
-	1    3150 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR016
-U 1 1 5D9DE448
-P 3450 1900
-F 0 "#PWR016" H 3450 1750 50  0001 C CNN
-F 1 "+3.3V" H 3350 2100 50  0000 L CNN
-F 2 "" H 3450 1900 50  0001 C CNN
-F 3 "" H 3450 1900 50  0001 C CNN
-	1    3450 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 2250 3450 2250
 Wire Wire Line
 	15000 6250 14600 6250
 Wire Wire Line
@@ -2161,12 +2143,12 @@ REMOTE_DATA
 $Comp
 L power:GNDD #PWR020
 U 1 1 5FB8CFCD
-P 13350 2850
-F 0 "#PWR020" H 13350 2600 50  0001 C CNN
-F 1 "GNDD" V 13354 2740 50  0000 R CNN
-F 2 "" H 13350 2850 50  0001 C CNN
-F 3 "" H 13350 2850 50  0001 C CNN
-	1    13350 2850
+P 13200 2850
+F 0 "#PWR020" H 13200 2600 50  0001 C CNN
+F 1 "GNDD" V 13204 2740 50  0000 R CNN
+F 2 "" H 13200 2850 50  0001 C CNN
+F 3 "" H 13200 2850 50  0001 C CNN
+	1    13200 2850
 	0    1    1    0   
 $EndComp
 NoConn ~ 15100 2950
@@ -2762,7 +2744,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 1150 1400 1450
 Wire Wire Line
-	1400 1450 1250 1450
+	1400 1450 1300 1450
 $Comp
 L Connector_Generic:Conn_01x03 J3
 U 1 1 61177C75
@@ -2838,7 +2820,6 @@ NoConn ~ 13350 2250
 NoConn ~ 15100 2650
 NoConn ~ 15100 2750
 NoConn ~ 15100 2850
-NoConn ~ 15100 1950
 NoConn ~ 15100 1850
 NoConn ~ 15100 1750
 NoConn ~ 15100 1650
@@ -2848,39 +2829,25 @@ NoConn ~ 15100 1350
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 61A734DF
-P 1650 1350
-F 0 "#FLG0101" H 1650 1425 50  0001 C CNN
-F 1 "PWR_FLAG" H 1650 1523 50  0000 C CNN
-F 2 "" H 1650 1350 50  0001 C CNN
-F 3 "~" H 1650 1350 50  0001 C CNN
-	1    1650 1350
-	1    0    0    -1  
+P 1600 1750
+F 0 "#FLG0101" H 1600 1825 50  0001 C CNN
+F 1 "PWR_FLAG" H 1600 1923 50  0000 C CNN
+F 2 "" H 1600 1750 50  0001 C CNN
+F 3 "~" H 1600 1750 50  0001 C CNN
+	1    1600 1750
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 61A73D13
-P 1250 1450
-F 0 "#FLG0102" H 1250 1525 50  0001 C CNN
-F 1 "PWR_FLAG" H 1250 1623 50  0000 C CNN
-F 2 "" H 1250 1450 50  0001 C CNN
-F 3 "~" H 1250 1450 50  0001 C CNN
-	1    1250 1450
+P 1300 1450
+F 0 "#FLG0102" H 1300 1525 50  0001 C CNN
+F 1 "PWR_FLAG" H 1300 1600 50  0000 C CNN
+F 2 "" H 1300 1450 50  0001 C CNN
+F 3 "~" H 1300 1450 50  0001 C CNN
+	1    1300 1450
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 61A99C20
-P 1100 1250
-F 0 "#FLG0103" H 1100 1325 50  0001 C CNN
-F 1 "PWR_FLAG" V 1100 1378 50  0000 L CNN
-F 2 "" H 1100 1250 50  0001 C CNN
-F 3 "~" H 1100 1250 50  0001 C CNN
-	1    1100 1250
-	0    1    1    0   
-$EndComp
-Connection ~ 1250 1450
-Wire Wire Line
-	1250 1450 1050 1450
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 61AC0CD0
@@ -2938,25 +2905,21 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0108
 U 1 1 61C92E29
-P 13350 2950
-F 0 "#FLG0108" H 13350 3025 50  0001 C CNN
-F 1 "PWR_FLAG" H 13350 3123 50  0000 C CNN
-F 2 "" H 13350 2950 50  0001 C CNN
-F 3 "~" H 13350 2950 50  0001 C CNN
-	1    13350 2950
+P 13250 3050
+F 0 "#FLG0108" H 13250 3125 50  0001 C CNN
+F 1 "PWR_FLAG" H 13250 3223 50  0000 C CNN
+F 2 "" H 13250 3050 50  0001 C CNN
+F 3 "~" H 13250 3050 50  0001 C CNN
+	1    13250 3050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	13350 2950 13200 2950
-Connection ~ 13350 2950
+	13350 2950 13250 2950
 Connection ~ 1850 4400
 Wire Wire Line
 	1850 4400 1850 4500
 Wire Wire Line
-	1050 1350 1650 1350
-Connection ~ 1650 1350
-Wire Wire Line
-	1650 1350 1700 1350
+	1050 1350 1600 1350
 Connection ~ 1100 1250
 Connection ~ 7950 9750
 Wire Wire Line
@@ -3147,4 +3110,144 @@ Wire Wire Line
 Wire Wire Line
 	2250 5100 1850 5100
 Connection ~ 1850 5100
+Wire Wire Line
+	1100 1250 1100 1750
+Wire Wire Line
+	1600 1350 1600 1750
+Connection ~ 1300 1450
+Wire Wire Line
+	1050 1450 1300 1450
+Connection ~ 1600 1350
+Wire Wire Line
+	1600 1350 1700 1350
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5D46281F
+P 1100 1750
+F 0 "#FLG0103" H 1100 1825 50  0001 C CNN
+F 1 "PWR_FLAG" H 1100 1923 50  0000 C CNN
+F 2 "" H 1100 1750 50  0001 C CNN
+F 3 "~" H 1100 1750 50  0001 C CNN
+	1    1100 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13250 3050 13250 2950
+Connection ~ 13250 2950
+Wire Wire Line
+	13250 2950 13200 2950
+Wire Wire Line
+	13200 2850 13350 2850
+Wire Wire Line
+	13200 2750 13350 2750
+$Comp
+L Device:Fuse_Small F1
+U 1 1 5D53782F
+P 1800 1350
+F 0 "F1" H 1800 1535 50  0000 C CNN
+F 1 "10A" H 1800 1444 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1800 1350 50  0001 C CNN
+F 3 "~" H 1800 1350 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/nicht-rueckstellende-sicherungen-smd/7032789/" H 1800 1350 50  0001 C CNN "Distributor"
+	1    1800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5D6C6918
+P 2850 2350
+F 0 "J2" H 2800 2550 50  0000 L CNN
+F 1 "FP_Control_Direction" V 2950 2000 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 2850 2350 50  0001 C CNN
+F 3 "~" H 2850 2350 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/leiterplatten-header/6795587/" H 2850 2350 50  0001 C CNN "Distributor"
+	1    2850 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R42
+U 1 1 5D744F46
+P 3400 2450
+F 0 "R42" V 3350 2600 50  0000 C CNN
+F 1 "10k" V 3350 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3400 2450 50  0001 C CNN
+F 3 "~" H 3400 2450 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/smd-widerstande/1251192/" H 3400 2450 50  0001 C CNN "Feld4"
+F 5 "https://de.rs-online.com/web/p/smd-widerstande/1251192/" H 3400 2450 50  0001 C CNN "Distributor"
+	1    3400 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 5D79A10D
+P 4050 2200
+F 0 "C16" H 4100 2300 50  0000 L CNN
+F 1 "100nF" H 4050 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4050 2200 50  0001 C CNN
+F 3 "~" H 4050 2200 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/" H 4050 2200 50  0001 C CNN "Feld4"
+F 5 "https://de.rs-online.com/web/p/mehrschichtkeramikkondensatoren/1335654/" H 4050 2200 50  0001 C CNN "Distributor"
+	1    4050 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2000 4050 2100
+$Comp
+L power:+3.3V #PWR0109
+U 1 1 5D79A117
+P 4050 2000
+F 0 "#PWR0109" H 4050 1850 50  0001 C CNN
+F 1 "+3.3V" H 3950 2200 50  0000 L CNN
+F 2 "" H 4050 2000 50  0001 C CNN
+F 3 "" H 4050 2000 50  0001 C CNN
+	1    4050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2450 3500 2450
+Wire Wire Line
+	4050 2300 4050 2450
+Wire Wire Line
+	3700 2350 4300 2350
+Wire Wire Line
+	4050 2450 4300 2450
+Connection ~ 4050 2450
+Text Label 4300 2450 0    50   ~ 0
+DIN_DIRECTION_CCW
+$Comp
+L power:GNDD #PWR0110
+U 1 1 5D8F0DBB
+P 4050 2700
+F 0 "#PWR0110" H 4050 2450 50  0001 C CNN
+F 1 "GNDD" H 4150 2550 50  0000 R CNN
+F 2 "" H 4050 2700 50  0001 C CNN
+F 3 "" H 4050 2700 50  0001 C CNN
+	1    4050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R43
+U 1 1 5D8F0DC3
+P 4050 2600
+F 0 "R43" V 4246 2600 50  0000 C CNN
+F 1 "100k" V 4150 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4050 2600 50  0001 C CNN
+F 3 "~" H 4050 2600 50  0001 C CNN
+F 4 "https://de.rs-online.com/web/p/smd-widerstande/6791761/" H 4050 2600 50  0001 C CNN "Feld4"
+F 5 "https://de.rs-online.com/web/p/smd-widerstande/6791761/" H 4050 2600 50  0001 C CNN "Distributor"
+	1    4050 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2450 4050 2500
+Wire Wire Line
+	3700 2500 3700 2350
+Wire Wire Line
+	3050 2250 3400 2250
+Wire Wire Line
+	3050 2350 3300 2350
+Wire Wire Line
+	3300 2450 3050 2450
+Text Label 15100 2050 0    50   ~ 0
+DIN_DIRECTION_CW
 $EndSCHEMATC
