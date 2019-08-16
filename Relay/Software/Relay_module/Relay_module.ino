@@ -220,7 +220,7 @@ void write_message(Message * msg) {
   message_to_raw(msg, data);
   
   Wire.beginTransmission(MASTER_ADDRESS);
-  Wire.write(data, MESSAGE_LENGTH);
+  Wire.write((uint8_t *) data, MESSAGE_LENGTH);
   Wire.endTransmission();
 }
 
