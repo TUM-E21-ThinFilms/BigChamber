@@ -1,11 +1,6 @@
 #include <Wire.h>
 
 // TODO
-int SER_Pin = 11;   //pin 14 on the 75HC595
-int RCLK_Pin = 8;  //pin 12 on the 75HC595
-int SRCLK_Pin = 12; //pin 11 on the 75HC595
-
-// TODO
 // reset is active low
 int PIN_ShiftRegister_NRESET = 1;
 int PIN_ShiftRegister_LATCH_CLK = 1;
