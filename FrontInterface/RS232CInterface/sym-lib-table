@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ADM3251EARWZ)(type Legacy)(uri ${KIPRJMOD}/RS232C-Interface.pretty/ADM3251EARWZ.lib)(options "")(descr ""))
+)
