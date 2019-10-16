@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/bakhshi/Downloads/PDM_1-master(1)/PDM_1-master/Hardware_PDM_1/rev0/pdm_1-rev0.sch</source>
+    <date>Thu 05 Sep 2019 12:43:57 PM CEST</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pdm_1-rev0.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>pdm_1-rev0:0805</footprint>
+      <datasheet>https://de.rs-online.com/web/p/products/4646688/</datasheet>
+      <libsource lib="pdm_1-rev0-eagle-import" part="CAPACITOR0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>DE3531F169098DAB</tstamp>
+    </comp>
+    <comp ref="BP_CAN_OUT1">
+      <value>J</value>
+      <footprint>pdm_1-rev0:RJ45-PCB-SOCKET</footprint>
+      <datasheet>https://de.rs-online.com/web/p/products/2400935/</datasheet>
+      <libsource lib="pdm_1-rev0-eagle-import" part="RJ45-SOCKET" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>EC4CBBF8C3190B6C</tstamp>
+    </comp>
+    <comp ref=".1">
+      <value>2x4</value>
+      <footprint>pdm_1-rev0:HEADER-2X4</footprint>
+      <datasheet>https://de.rs-online.com/web/p/leiterplatten-header/8281856/</datasheet>
+      <libsource lib="pdm_1-rev0-eagle-import" part="HEADER2X4_NORMAL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2E5E96F5F6EEC095</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>120R 0.25W</value>
+      <footprint>pdm_1-rev0:2010</footprint>
+      <datasheet>https://de.rs-online.com/web/p/products/2230304/</datasheet>
+      <libsource lib="pdm_1-rev0-eagle-import" part="RESISTOR2010" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>F977EDFF0ED61F71</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>120R 0.25W</value>
+      <footprint>pdm_1-rev0:2010</footprint>
+      <datasheet>https://de.rs-online.com/web/p/products/2230304/</datasheet>
+      <libsource lib="pdm_1-rev0-eagle-import" part="RESISTOR2010" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C80C4EE536D02DE4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>pdm_1-rev0:0805</footprint>
+      <datasheet>https://de.rs-online.com/web/p/products/4646688/</datasheet>
+      <libsource lib="pdm_1-rev0-eagle-import" part="CAPACITOR0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5902D293218CB388</tstamp>
+    </comp>
+    <comp ref="POWER_EXT1">
+      <value>TERMINAL-2-2,5X5,5MM</value>
+      <footprint>pdm_1-rev0:ARK2-7.5X10.5MM</footprint>
+      <datasheet>https://de.rs-online.com/web/p/products/2204260/</datasheet>
+      <libsource lib="pdm_1-rev0-eagle-import" part="TERMINAL-2-7.5X10.5MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6CFE1E7432EEE89C</tstamp>
+    </comp>
+    <comp ref="BP_CAN_IN1">
+      <value>J</value>
+      <footprint>pdm_1-rev0:RJ45-PCB-SOCKET</footprint>
+      <datasheet>https://de.rs-online.com/web/p/products/2400935/</datasheet>
+      <libsource lib="pdm_1-rev0-eagle-import" part="RJ45-SOCKET" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>647B296798085B15</tstamp>
+    </comp>
+    <comp ref="BP_Power1">
+      <value>TERMINAL-2-2,5X5,5MM</value>
+      <footprint>pdm_1-rev0:ARK2-7.5X10.5MM</footprint>
+      <datasheet>https://de.rs-online.com/web/p/products/2204260/</datasheet>
+      <libsource lib="pdm_1-rev0-eagle-import" part="TERMINAL-2-7.5X10.5MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D721503</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse 10A</value>
+      <datasheet>https://de.rs-online.com/web/p/sicherungshalter-offen/7690149/?relevancy-data=636F3D3126696E3D4931384E525353746F636B4E756D626572266C753D656E266D6D3D6D61746368616C6C26706D3D5E2828282872737C5253295B205D3F293F285C647B337D5B5C2D5C735D3F5C647B332C347D5B705061415D3F29297C283235285C647B387D7C5C647B317D5C2D5C647B377D2929292426706F3D3126736E3D592673723D2673743D52535F53544F434B5F4E554D4245522677633D4E4F4E45267573743D37363930313439267374613D3736393031343926&amp;searchHistory=%7B%22enabled%22%3Afalse%7D</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D722458</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm_1-rev0-eagle-import" part="CAPACITOR0805">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPACITOR0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm_1-rev0-eagle-import" part="HEADER2X4_NORMAL">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">HEADER2X4_NORMAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="S" type="passive"/>
+        <pin num="5" name="S" type="passive"/>
+        <pin num="6" name="S" type="passive"/>
+        <pin num="7" name="S" type="passive"/>
+        <pin num="8" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm_1-rev0-eagle-import" part="RESISTOR2010">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR2010</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm_1-rev0-eagle-import" part="RJ45-SOCKET">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">RJ45-SOCKET</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm_1-rev0-eagle-import" part="TERMINAL-2-7.5X10.5MM">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">TERMINAL-2-7.5X10.5MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="pdm_1-rev0-eagle-import">
+      <uri>/home/bakhshi/Downloads/PDM_1-master(1)/PDM_1-master/Hardware_PDM_1/rev0/pdm_1-rev0-eagle-import.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(BP_CAN_IN1-Pad6)">
+      <node ref="BP_CAN_IN1" pin="6"/>
+    </net>
+    <net code="2" name="+24V">
+      <node ref="BP_Power1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="POWER_EXT1" pin="1"/>
+      <node ref="BP_CAN_IN1" pin="8"/>
+      <node ref="C2" pin="2"/>
+      <node ref="BP_CAN_OUT1" pin="8"/>
+      <node ref="BP_CAN_OUT1" pin="4"/>
+      <node ref="BP_CAN_IN1" pin="4"/>
+    </net>
+    <net code="3" name="Net-(BP_CAN_IN1-Pad3)">
+      <node ref="BP_CAN_IN1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(.1-Pad3)">
+      <node ref=".1" pin="3"/>
+      <node ref="BP_CAN_IN1" pin="1"/>
+    </net>
+    <net code="5" name="EXT_GNDPWR">
+      <node ref="BP_CAN_IN1" pin="7"/>
+      <node ref="BP_CAN_OUT1" pin="5"/>
+      <node ref="BP_CAN_OUT1" pin="7"/>
+      <node ref="C2" pin="1"/>
+      <node ref="POWER_EXT1" pin="2"/>
+      <node ref="BP_CAN_IN1" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(BP_Power1-Pad2)">
+      <node ref="BP_Power1" pin="2"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(.1-Pad7)">
+      <node ref=".1" pin="7"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(.1-Pad6)">
+      <node ref=".1" pin="6"/>
+      <node ref=".1" pin="8"/>
+      <node ref="R2" pin="2"/>
+      <node ref="BP_CAN_OUT1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(.1-Pad2)">
+      <node ref="BP_CAN_IN1" pin="2"/>
+      <node ref=".1" pin="2"/>
+      <node ref=".1" pin="4"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(.1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref=".1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(.1-Pad5)">
+      <node ref=".1" pin="5"/>
+      <node ref="BP_CAN_OUT1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(BP_CAN_OUT1-Pad6)">
+      <node ref="BP_CAN_OUT1" pin="6"/>
+    </net>
+    <net code="13" name="Net-(BP_CAN_OUT1-Pad3)">
+      <node ref="BP_CAN_OUT1" pin="3"/>
+    </net>
+  </nets>
+</export>
