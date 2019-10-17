@@ -209,15 +209,13 @@ CANL_IN
 Wire Notes Line
 	2550 2000 2450 2000
 Wire Notes Line
-	2450 2000 2450 2500
+	2450 1500 2450 2000
 Wire Notes Line
-	2450 2500 2550 2500
+	2450 1500 2550 1500
 Wire Notes Line
-	3550 2000 3650 2000
+	2450 2500 2450 3000
 Wire Notes Line
-	3650 2000 3650 2500
-Wire Notes Line
-	3650 2500 3550 2500
+	2550 3000 2450 3000
 Text Notes 2050 2050 0    50   ~ 0
 CANH_IN
 Text Notes 2050 2550 0    50   ~ 0
@@ -341,6 +339,8 @@ Wire Notes Line
 Wire Notes Line
 	5950 700  500  700 
 Wire Notes Line
-	500  700  500  3800
+	350  850  350  3950
 Connection ~ 4750 3400
+Wire Notes Line
+	2450 2500 2550 2500
 $EndSCHEMATC
