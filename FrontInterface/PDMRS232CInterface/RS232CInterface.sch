@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:RS232C Interface-cache
+LIBS:RS232CInterface-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -750,7 +750,7 @@ $Sheet
 S 9650 1600 750  900 
 U 5DA86345
 F0 "PDM" 50
-F1 "file PDM.sch" 50
+F1 "filePDM.sch" 50
 F2 "CANH" I L 9650 1800 50 
 F3 "CANL" I L 9650 2000 50 
 F4 "+24V" I L 9650 2200 50 

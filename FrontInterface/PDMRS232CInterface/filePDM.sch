@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:RS232C Interface-cache
+LIBS:RS232CInterface-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -51,10 +51,10 @@ Wire Wire Line
 Connection ~ 3250 3000
 Connection ~ 3250 3200
 $Comp
-L RS232C-Interface-rescue:CAPACITOR0805-pdm_1-rev0-eagle-import C14
+L RS232C-Interface-rescue:CAPACITOR0805-pdm_1-rev0-eagle-import C?
 U 1 0 DE3531F169098DAB
 P 4750 3400
-F 0 "C14" H 4800 3405 59  0000 L BNN
+F 0 "C?" H 4800 3405 59  0000 L BNN
 F 1 "100n" H 4800 3235 59  0000 L BNN
 F 2 "RS232C-Interface+PDM:Capacitor0805" H 4750 3400 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/smd-widerstande/2232136/" H 4750 3400 50  0001 C CNN
@@ -62,10 +62,10 @@ F 3 "https://de.rs-online.com/web/p/smd-widerstande/2232136/" H 4750 3400 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L RS232C-Interface-rescue:RJ45-SOCKET-pdm_1-rev0-eagle-import BP_CAN_OUT1
+L RS232C-Interface-rescue:RJ45-SOCKET-pdm_1-rev0-eagle-import BP_CAN_OUT?
 U 1 0 EC4CBBF8C3190B6C
 P 5450 3300
-F 0 "BP_CAN_OUT1" H 5250 3800 59  0000 L BNN
+F 0 "BP_CAN_OUT?" H 5250 3800 59  0000 L BNN
 F 1 "J" H 5250 2880 59  0000 L BNN
 F 2 "RS232C-Interface+PDM:RJ45-PCB-SOCKET" H 5450 3300 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/products/2400935/" H 5450 3300 50  0001 C CNN
@@ -73,10 +73,10 @@ F 3 "https://de.rs-online.com/web/p/products/2400935/" H 5450 3300 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .1
+L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .?
 U 1 0 2E5E96F5F6EEC095
 P 2850 1500
-F 0 ".1" H 2670 1535 59  0000 R TNN
+F 0 ".?" H 2670 1535 59  0000 R TNN
 F 1 "2x4" H 2850 1500 50  0001 C CNN
 F 2 "RS232C-Interface+PDM:Pinheader" H 2850 1500 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 2850 1500 50  0001 C CNN
@@ -84,10 +84,10 @@ F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 2850 1500 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .1
+L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .?
 U 2 0 2E5E96F5F6EEC099
 P 3250 1500
-F 0 ".1" H 3070 1535 59  0000 R TNN
+F 0 ".?" H 3070 1535 59  0000 R TNN
 F 1 "2x4" H 3250 1500 50  0001 C CNN
 F 2 "RS232C-Interface+PDM:Pinheader" H 3250 1500 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 3250 1500 50  0001 C CNN
@@ -95,10 +95,10 @@ F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 3250 1500 5
 	-1   0    0    1   
 $EndComp
 $Comp
-L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .1
+L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .?
 U 3 0 2E5E96F5F6EEC09D
 P 2850 2000
-F 0 ".1" H 2670 2035 59  0000 R TNN
+F 0 ".?" H 2670 2035 59  0000 R TNN
 F 1 "2x4" H 2850 2000 50  0001 C CNN
 F 2 "RS232C-Interface+PDM:Pinheader" H 2850 2000 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 2850 2000 50  0001 C CNN
@@ -106,10 +106,10 @@ F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 2850 2000 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .1
+L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .?
 U 4 0 2E5E96F5F6EEC081
 P 3250 2000
-F 0 ".1" H 3070 2035 59  0000 R TNN
+F 0 ".?" H 3070 2035 59  0000 R TNN
 F 1 "2x4" H 3250 2000 50  0001 C CNN
 F 2 "RS232C-Interface+PDM:Pinheader" H 3250 2000 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 3250 2000 50  0001 C CNN
@@ -117,10 +117,10 @@ F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 3250 2000 5
 	-1   0    0    1   
 $EndComp
 $Comp
-L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .1
+L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .?
 U 5 0 2E5E96F5F6EEC085
 P 2850 2700
-F 0 ".1" H 2670 2735 59  0000 R TNN
+F 0 ".?" H 2670 2735 59  0000 R TNN
 F 1 "2x4" H 2850 2700 50  0001 C CNN
 F 2 "RS232C-Interface+PDM:Pinheader" H 2850 2700 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 2850 2700 50  0001 C CNN
@@ -128,10 +128,10 @@ F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 2850 2700 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .1
+L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .?
 U 6 0 2E5E96F5F6EEC089
 P 3250 2700
-F 0 ".1" H 3070 2735 59  0000 R TNN
+F 0 ".?" H 3070 2735 59  0000 R TNN
 F 1 "2x4" H 3250 2700 50  0001 C CNN
 F 2 "RS232C-Interface+PDM:Pinheader" H 3250 2700 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 3250 2700 50  0001 C CNN
@@ -139,10 +139,10 @@ F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 3250 2700 5
 	-1   0    0    1   
 $EndComp
 $Comp
-L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .1
+L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .?
 U 7 0 2E5E96F5F6EEC08D
 P 2850 3200
-F 0 ".1" H 2670 3235 59  0000 R TNN
+F 0 ".?" H 2670 3235 59  0000 R TNN
 F 1 "2x4" H 2850 3200 50  0001 C CNN
 F 2 "RS232C-Interface+PDM:Pinheader" H 2850 3200 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 2850 3200 50  0001 C CNN
@@ -150,10 +150,10 @@ F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 2850 3200 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .1
+L RS232C-Interface-rescue:HEADER2X4_NORMAL-pdm_1-rev0-eagle-import .?
 U 8 0 2E5E96F5F6EEC0B1
 P 3250 3200
-F 0 ".1" H 3070 3235 59  0000 R TNN
+F 0 ".?" H 3070 3235 59  0000 R TNN
 F 1 "2x4" H 3250 3200 50  0001 C CNN
 F 2 "RS232C-Interface+PDM:Pinheader" H 3250 3200 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 3250 3200 50  0001 C CNN
@@ -161,10 +161,10 @@ F 3 "https://de.rs-online.com/web/p/leiterplatten-header/8236434/" H 3250 3200 5
 	-1   0    0    1   
 $EndComp
 $Comp
-L RS232C-Interface-rescue:RESISTOR2010-pdm_1-rev0-eagle-import R3
+L RS232C-Interface-rescue:RESISTOR2010-pdm_1-rev0-eagle-import R?
 U 1 0 F977EDFF0ED61F71
 P 3050 1100
-F 0 "R3" H 2930 1245 59  0000 L BNN
+F 0 "R?" H 2930 1245 59  0000 L BNN
 F 1 "120R 0.25W" H 2930 1155 59  0000 L BNN
 F 2 "RS232C-Interface+PDM:Resistor-1206" H 3050 1100 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/products/2230304/" H 3050 1100 50  0001 C CNN
@@ -172,10 +172,10 @@ F 3 "https://de.rs-online.com/web/p/products/2230304/" H 3050 1100 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RS232C-Interface-rescue:RESISTOR2010-pdm_1-rev0-eagle-import R4
+L RS232C-Interface-rescue:RESISTOR2010-pdm_1-rev0-eagle-import R?
 U 1 0 C80C4EE536D02DE4
 P 3050 3600
-F 0 "R4" H 2930 3645 59  0000 L BNN
+F 0 "R?" H 2930 3645 59  0000 L BNN
 F 1 "120R 0.25W" H 2930 3485 59  0000 L BNN
 F 2 "RS232C-Interface+PDM:Resistor-1206" H 3050 3600 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/products/2230304/" H 3050 3600 50  0001 C CNN
@@ -183,10 +183,10 @@ F 3 "https://de.rs-online.com/web/p/products/2230304/" H 3050 3600 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RS232C-Interface-rescue:CAPACITOR0805-pdm_1-rev0-eagle-import C13
+L RS232C-Interface-rescue:CAPACITOR0805-pdm_1-rev0-eagle-import C?
 U 1 0 5902D293218CB388
 P 4700 2200
-F 0 "C13" H 4750 2205 59  0000 L BNN
+F 0 "C?" H 4750 2205 59  0000 L BNN
 F 1 "100n" H 4750 2035 59  0000 L BNN
 F 2 "RS232C-Interface+PDM:Capacitor0805" H 4700 2200 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/smd-widerstande/2232136/" H 4700 2200 50  0001 C CNN
@@ -194,10 +194,10 @@ F 3 "https://de.rs-online.com/web/p/smd-widerstande/2232136/" H 4700 2200 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L RS232C-Interface-rescue:TERMINAL-2-7.5X10.5MM-pdm_1-rev0-eagle-import BP_Power1
+L RS232C-Interface-rescue:TERMINAL-2-7.5X10.5MM-pdm_1-rev0-eagle-import BP_Power?
 U 1 0 6CFE1E7432EEE89C
 P 1400 2400
-F 0 "BP_Power1" V 1165 2600 59  0000 R TNN
+F 0 "BP_Power?" V 1165 2600 59  0000 R TNN
 F 1 "TERMINAL-2-2,5X5,5MM" H 1400 2400 50  0001 C CNN
 F 2 "RS232C-Interface+PDM:Screwterminal" H 1400 2400 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/products/2204260/" H 1400 2400 50  0001 C CNN
@@ -240,10 +240,10 @@ Wire Wire Line
 	5050 2100 4700 2100
 Connection ~ 5050 2100
 $Comp
-L RS232C-Interface-rescue:RJ45-SOCKET-pdm_1-rev0-eagle-import BP_CAN_IN1
+L RS232C-Interface-rescue:RJ45-SOCKET-pdm_1-rev0-eagle-import BP_CAN_IN?
 U 1 0 647B296798085B15
 P 5450 2100
-F 0 "BP_CAN_IN1" H 5250 2600 59  0000 L BNN
+F 0 "BP_CAN_IN?" H 5250 2600 59  0000 L BNN
 F 1 "J" H 5250 1680 59  0000 L BNN
 F 2 "RS232C-Interface+PDM:RJ45-PCB-SOCKET" H 5450 2100 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/products/2400935/" H 5450 2100 50  0001 C CNN
@@ -292,10 +292,10 @@ Text GLabel 4750 3600 0    50   Input ~ 0
 Text HLabel 850  2550 3    50   Input ~ 0
 +24V
 $Comp
-L Device:Fuse F1
+L Device:Fuse F?
 U 1 1 5DCC2090
 P 1000 2550
-F 0 "F1" V 1060 2596 50  0000 L CNN
+F 0 "F?" V 1060 2596 50  0000 L CNN
 F 1 "Fuse" V 1060 2505 50  0000 R CNN
 F 2 "RS232C-Interface+PDM:Fuseholder" V 930 2550 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/sicherungshalter-offen/7690149/?relevancy-data=636F3D3126696E3D4931384E525353746F636B4E756D626572266C753D656E266D6D3D6D61746368616C6C26706D3D5E2828282872737C5253295B205D3F293F285C647B337D5B5C2D5C735D3F5C647B332C347D5B705061415D3F29297C283235285C647B387D7C5C647B317D5C2D5C647B377D2929292426706F3D3126736E3D592673723D2673743D52535F53544F434B5F4E554D4245522677633D4E4F4E45267573743D37363930313439267374613D3736393031343926&searchHistory=%7B%22enabled%22%3Atrue%7D" H 1000 2550 50  0001 C CNN
