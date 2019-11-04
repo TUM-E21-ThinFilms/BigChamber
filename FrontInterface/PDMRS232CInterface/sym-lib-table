@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name ADM3251EARWZ)(type Legacy)(uri ${KIPRJMOD}/RS232C-Interface.pretty/ADM3251EARWZ.lib)(options "")(descr ""))
   (lib (name RS232C-Interface-rescue)(type Legacy)(uri "${KIPRJMOD}/RS232C Interface-rescue.lib")(options "")(descr ""))
+  (lib (name ADM3251EARWZ)(type Legacy)(uri ${KIPRJMOD}/RS232C-Interface+PDM.pretty/ADM3251EARWZ.lib)(options "")(descr ""))
+  (lib (name bluepill_breakouts)(type Legacy)(uri /home/bakhshi/BigChamber/FrontInterface/PDMRS232CInterface/RS232C-Interface+PDM.pretty/bluepill_breakouts.lib)(options "")(descr ""))
 )
